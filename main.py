@@ -8,7 +8,7 @@ from selenium.webdriver import ActionChains
 
 import time
 
-contact = "Влад"
+contact = "Влад" # На Женюньчик -- ломается
 text = "Hey, this message was sent using Selenium"
 chrome_options = Options()
 chrome_options.add_argument("user-data-dir=selenium")
